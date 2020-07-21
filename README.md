@@ -1,6 +1,6 @@
 ### Hi there, I'm [Shu!](https://www.facebook.com/ngbinhan/) 👋
 
-<a href="https://github.com/nguyenbinhanltv/Shu-Music"><img align="right" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=nguyenbinhanltv&show_icons=true&theme=radical" alt="Shu Music" /></a>
+<a href="https://github.com/nguyenbinhanltv/Shu-Music"><img align="right" src="https://github-readme-stats.vercel.app/api?username=nguyenbinhanltv&show_icons=true&theme=radical" alt="Shu Music" /></a>
 
 <a href="https://codesandbox.io/u/nguyenbinhanltv">
   <img align="left" alt="Shu | CodeSandbox" width="20px" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/codesandbox.svg" />
