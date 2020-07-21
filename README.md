@@ -1,6 +1,6 @@
 ### Hi there, I'm [Shu!](https://www.facebook.com/ngbinhan/) 👋
 
-<a href="https://github.com/nguyenbinhanltv/Shu-Music"><img align="right" src="https://github-readme-stats.vercel.app/api?username=nguyenbinhanltv&show_icons=true&theme=radical" alt="Shu Music" /></a>
+<a href="https://github.com/nguyenbinhanltv"><img align="right" src="https://github-readme-stats.vercel.app/api?username=nguyenbinhanltv&show_icons=true&theme=radical" alt="Shu's github stats" /></a>
 
 <a href="https://codesandbox.io/u/nguyenbinhanltv">
   <img align="left" alt="Shu | CodeSandbox" width="20px" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/codesandbox.svg" />
@@ -27,10 +27,10 @@ Hi, I'm Shu, a passionate self-taught mean-stack web developer from Vietnam.
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=radical" />
+<a href="https://github.com/nguyenbinhanltv/Shu-Music">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenbinhanltv&repo=Shu-Music&theme=radical" />
 </a>
 
-<a href="https://github.com/anuraghazra/anuraghazra.github.io">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=anuraghazra.github.io&theme=radical" />
+<a href="https://github.com/nguyenbinhanltv/jira-clone-angular">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenbinhanltv&repo=jira-clone-angular&theme=radical" />
 </a>
