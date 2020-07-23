@@ -1,6 +1,6 @@
 ### Hi there, I'm [Shu!](https://www.facebook.com/ngbinhan/) 👋
 
-<a href="https://github.com/nguyenbinhanltv"><img align="right" src="https://github-readme-stats.vercel.app/api?username=nguyenbinhanltv&show_icons=true&theme=radical" alt="Shu's github stats" /></a>
+<a href="https://github.com/nguyenbinhanltv"><img align="right" src="https://github-readme-stats.vercel.app/api?username=nguyenbinhanltv&show_icons=true&theme=tokyonight" alt="Shu's github stats" /></a>
 
 <a href="https://codesandbox.io/u/nguyenbinhanltv">
   <img align="left" alt="Shu | CodeSandbox" width="20px" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/codesandbox.svg" />
@@ -28,9 +28,9 @@ Hi, I'm Shu, a passionate self-taught mean-stack web developer from Vietnam.
 
 
 <a href="https://github.com/nguyenbinhanltv/Shu-Music">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenbinhanltv&repo=Shu-Music&theme=radical" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenbinhanltv&repo=Shu-Music&theme=tokyonight" />
 </a>
 
 <a href="https://github.com/nguyenbinhanltv/jira-clone-angular">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenbinhanltv&repo=jira-clone-angular&theme=radical" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenbinhanltv&repo=jira-clone-angular&theme=tokyonight" />
 </a>
