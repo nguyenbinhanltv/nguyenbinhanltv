@@ -38,3 +38,7 @@ Hi, I'm Shu, a passionate self-taught mean-stack web developer from Vietnam.
 <a href="https://github.com/nguyenbinhanltv/flutter-ui-challenge">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenbinhanltv&repo=flutter-ui-challenge&theme=tokyonight" />
 </a>
+
+<a href="https://github.com/nguyenbinhanltv/BrowserQuest">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenbinhanltv&repo=BrowserQuest&theme=tokyonight" />
+</a>
