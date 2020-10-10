@@ -39,7 +39,3 @@ Hi, I'm Shu, a passionate self-taught mean-stack web developer from Vietnam.
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
 
-
-<a href="https://github.com/nguyenbinhanltv/Shu-Music">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenbinhanltv&repo=Shu-Music&theme=tokyonight" />
-</a>
