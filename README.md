@@ -22,12 +22,6 @@
 <br />
 <br />
 
-Hi, I'm Shu, a passionate self-taught mean-stack web developer from Vietnam.
-
-- 🔭 I’m currently working on my project [Trello](https://github.com/nguyenbinhanltv/jira-clone-angular)
-- 🌱 I’m currently learning Flutter & Dart
-- 💬 Ask me about anything [here](https://github.com/nguyenbinhanltv/nguyenbinhanltv/issues)
-
 **Languages and Tools:**
 
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"></code>
