@@ -9,7 +9,7 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
   },
   [LinkPreset.About]: {
     name: i18n(I18nKey.about),
-    url: '/nguyenbinhanltv/about/',
+    url: '/about/',
   },
   [LinkPreset.Archive]: {
     name: i18n(I18nKey.archive),
