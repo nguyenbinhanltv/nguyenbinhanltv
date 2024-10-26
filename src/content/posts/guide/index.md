@@ -1,9 +1,9 @@
 ---
-title: Simple Guides for Fuwari
-published: 2024-04-01
+title: Simple Guide for Blog Post
+published: 2024-10-26
 description: "How to use this blog template."
-image: "./cover.jpeg"
-tags: ["Fuwari", "Blogging", "Customization"]
+image: "./cover-1.png"
+tags: ["Blogging", "Customization"]
 category: Guides
 draft: false
 ---
@@ -16,10 +16,10 @@ This blog template is built with [Astro](https://astro.build/). For the things t
 
 ```yaml
 ---
-title: My First Blog Post
-published: 2023-09-09
-description: This is the first post of my new Astro blog.
-image: ./cover.jpg
+title: My Guide Blog Post
+published: 2024-10-26
+description: This is the guide post of my new Astro blog.
+image: ./cover.jpeg
 tags: [Foo, Bar]
 category: Front-end
 draft: false
@@ -37,8 +37,6 @@ draft: false
 | `draft`        | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
 
 ## Where to Place the Post Files
-
-
 
 Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
 
