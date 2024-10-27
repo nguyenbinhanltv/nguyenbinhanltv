@@ -5,7 +5,7 @@ description: A simple example of a Draft blog post.
 image: './cover.png'
 tags: [Markdown, Blogging, Demo]
 category: Examples
-draft: true
+draft: false
 ---
 
 # This Article is a Draft
