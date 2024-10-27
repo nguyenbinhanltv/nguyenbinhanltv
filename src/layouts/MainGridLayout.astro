@@ -6,6 +6,7 @@ import SideBar from '@components/widget/SideBar.astro'
 import Layout from './Layout.astro'
 import { Icon } from 'astro-icon/components'
 import { siteConfig } from '../config'
+import WriterLoading from '@components/WriterLoading.astro'
 
 interface Props {
   title?: string
@@ -19,8 +20,19 @@ const { title, banner, description, lang, setOGTypeArticle } = Astro.props
 const hasBannerCredit =
   siteConfig.banner.enable && siteConfig.banner.credit.enable
 const hasBannerLink = !!siteConfig.banner.credit.url
----
 
+
+---
+<script is:inline>
+  document.addEventListener('astro:before-preparation', () => {
+    console.log('loading')
+    document.querySelector('#writer-loading').classList.remove('hidden')
+  });
+  document.addEventListener('astro:after-preparation', () => {
+    console.log('stop loading')
+    document.querySelector('#writer-loading').classList.add('hidden')
+  });
+</script>
 <Layout title={title} banner={banner} description={description} lang={lang} setOGTypeArticle={setOGTypeArticle}>
 <slot slot="head" name="head"></slot>
 <div id="top-row" class="z-50 pointer-events-none relative transition-all duration-700 max-w-[var(--page-width)] px-0 md:px-4 mx-auto" class:list={[""]}>
@@ -51,9 +63,13 @@ const hasBannerLink = !!siteConfig.banner.credit.url
             <SideBar class="mb-4 row-start-2 row-end-3 col-span-2 lg:row-start-1 lg:row-end-2 lg:col-span-1 lg:max-w-[17.5rem] onload-animation"></SideBar>
 
             <main id="swup-container" class="transition-swup-fade col-span-2 lg:col-span-1 overflow-hidden">
+               
                 <div id="content-wrapper" class="onload-animation">
                     <!-- the overflow-hidden here prevent long text break the layout-->
                     <!-- make id different from windows.swup global property -->
+                    <div class="writer-loading hidden">
+                        <WriterLoading></WriterLoading>
+                    </div>
                     <slot></slot>
                     <div class="footer col-span-2 onload-animation hidden lg:block">
                         <Footer></Footer>
