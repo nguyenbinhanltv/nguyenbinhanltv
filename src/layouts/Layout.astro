@@ -17,6 +17,9 @@ import { defaultFavicons } from '../constants/icon'
 import type { Favicon } from '../types/config'
 import { url, pathsEqual } from '../utils/url-utils'
 
+import ThreejsChristmas from "@components/threejs-christmas/ThreejsChristmas"
+import LumaWorld from '@components/threejs-christmas/LumaWorld'
+
 interface Props {
   title?: string
   banner?: string
@@ -143,6 +146,8 @@ const bannerOffset = bannerOffsetByPosition[siteConfig.banner.position || 'cente
 						  src={siteConfig.banner.src} position={siteConfig.banner.position}
 			>
 			</ImageWrapper>
+			{/* <ThreejsChristmas /> */}
+			{/* <LumaWorld visible={false} /> */}
 		</div>}
 		<slot />
 		</GlobalStyles>
