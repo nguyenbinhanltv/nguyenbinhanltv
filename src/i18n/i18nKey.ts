@@ -27,6 +27,9 @@ enum I18nKey {
   darkMode = 'darkMode',
   systemMode = 'systemMode',
 
+  viMode = 'viMode',
+  enMode = 'enMode',
+
   more = 'more',
 
   author = 'author',

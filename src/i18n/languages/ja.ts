@@ -30,6 +30,9 @@ export const ja: Translation = {
   [Key.darkMode]: 'ダーク',
   [Key.systemMode]: 'システム',
 
+  [Key.viMode]: 'VN',
+  [Key.enMode]: 'US',
+
   [Key.more]: 'もっと',
 
   [Key.author]: '作者',

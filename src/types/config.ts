@@ -1,4 +1,4 @@
-import type { AUTO_MODE, DARK_MODE, LIGHT_MODE } from '@constants/constants'
+import type { AUTO_MODE, DARK_MODE, EN_LANGUAGE, LIGHT_MODE, VI_LANGUAGE } from '@constants/constants'
 
 export type SiteConfig = {
   title: string
@@ -67,6 +67,10 @@ export type LIGHT_DARK_MODE =
   | typeof LIGHT_MODE
   | typeof DARK_MODE
   | typeof AUTO_MODE
+
+export type LANGUAGES = 
+  | typeof VI_LANGUAGE
+  | typeof EN_LANGUAGE
 
 export type BlogPostData = {
   body: string

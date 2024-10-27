@@ -30,6 +30,9 @@ export const zh_CN: Translation = {
   [Key.darkMode]: '暗色',
   [Key.systemMode]: '跟随系统',
 
+  [Key.viMode]: 'VN',
+  [Key.enMode]: 'US',
+
   [Key.more]: '更多',
 
   [Key.author]: '作者',

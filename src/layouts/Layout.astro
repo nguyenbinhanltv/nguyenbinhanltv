@@ -197,7 +197,7 @@ import {
 	// SizeObserverPlugin,
 	// ClickScrollPlugin
 } from 'overlayscrollbars';
-import {getHue, getStoredTheme, setHue, setTheme} from "../utils/setting-utils";
+import {getHue, getStoredLanguage, getStoredTheme, setHue, setLanguage, setTheme} from "../utils/setting-utils";
 import {pathsEqual, url} from "../utils/url-utils";
 
 	/* Preload fonts */
@@ -270,6 +270,11 @@ function loadTheme() {
 	setTheme(theme)
 }
 
+function loadLang() {
+	const lang = getStoredLanguage()
+	setLanguage(lang)
+}
+
 function loadHue() {
 	setHue(getHue())
 }
@@ -317,6 +322,7 @@ function showBanner() {
 function init() {
 	// disableAnimation()()		// TODO
 	loadTheme();
+	loadLang();
 	loadHue();
 	initCustomScrollbar();
 	showBanner();
