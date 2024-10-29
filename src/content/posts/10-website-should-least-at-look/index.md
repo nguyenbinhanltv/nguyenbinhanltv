@@ -3,8 +3,8 @@ title: 10 Websites every Web developer should at least look
 published: 2024-10-27
 description: If you are a web developer, you might be obsessed with finding a website that can save you tons of time.
 image: './cover.png'
-tags: [Webdev, Javascript, Benginners]
-category: Webdev
+tags: [Frontend, Webdev, Javascript, Benginners]
+category: Frontend
 draft: false
 ---
 

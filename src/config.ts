@@ -51,6 +51,8 @@ export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'An Binh Nguyen',
   bio: 'Software Engineer',
+  phone: '(+84) 345591135',
+  location: 'Lux 6 Vinhome Golder, P. Ben Nghe, Q1, Ho Chi Minh, Vietnam, VN, 70000',
   links: [
     {
       name: 'Twitter',
@@ -68,6 +70,11 @@ export const profileConfig: ProfileConfig = {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/nguyenbinhanltv/nguyenbinhanltv',
+    },
+    {
+      name: 'Facebook',
+      icon: 'fa6-brands:facebook',
+      url: 'https://facebook.com/ngbinhan',
     },
   ],
 }
