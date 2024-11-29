@@ -6,7 +6,7 @@ This is the demo site for [An Nguyen Binh](https://github.com/nguyenbinhanltv/ng
 
 A full stack developer is highly adaptable, able to work on diverse projects, and is often sought after for their ability to build complete solutions from scratch.
 
-## Work Experience
+## Work Experience [^1]
 
 - **Software Development Team Lead** (_Sep, 2024 - Present_) <br/> Core team of build products
   - Invented the first commercially practical incandescent light bulb.
@@ -37,7 +37,7 @@ A full stack developer is highly adaptable, able to work on diverse projects, an
   - Participate in the development, testing, and launch of new features for **Zeitgypsum** products. The **Zeitgypsum** app and web admin, which is constructed using **Laravel**, **Flutter**, and **Angular**. It serves the purpose of efficiently overseeing the import and export of gypsum stone through QR code integration.
   - Participate in the development, testing, and launch of new features for **Teniko** admin web, which also utilizes Angular and is specifically tailored for a Japanese client. This project aims to streamline the management of job applications in Vietnam, facilitating opportunities for individuals seeking employment in Japan.
 
-## Skills
+## Skills [^2]
 
 - **Front-End Development**
   - Javascript, HTML, CSS
@@ -68,22 +68,26 @@ A full stack developer is highly adaptable, able to work on diverse projects, an
   - Google Pay
   - Apple Pay
 
-## Education
+## Education [^3]
 
 - Study at university, Hoa Sen University (Not for Profit). Ho Chi Minh City, Vietnam.
 
-## Interests
+## Interests [^4]
 
 - Research and Development
 - Crypto
 
-## References
+## References [^5]
 
 - Mr. Vinh Thanh Nguyen (Founder CEO / Project Manager)
 - Mr. Tri Cao Do (Chief Technology Officer)
 
-> ### Sources of images used in this site
->
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+## Resume
+
+- [Json Resume](https://registry.jsonresume.org/nguyenbinhanltv)
+
+> [^1]: Work Experience
+> [^2]: Skills
+> [^3]: Education
+> [^4]: Interests
+> [^5]: References
