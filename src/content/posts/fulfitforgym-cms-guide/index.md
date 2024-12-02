@@ -19,17 +19,12 @@ draft: false
     - [Main features of a tablet (device)](#main-features-of-a-tablet-device)
   - [CMS Polar sensors](#cms-polar-sensors)
   - [CMS session](#cms-session)
-  - [How to add a Polar sensor to tablet](#how-to-add-a-polar-sensor-to-tablet)
-    - [Step 1: Login gym owner account to tablet](#step-1-login-gym-owner-account-to-tablet)
-    - [Step 2: Turn on Polar sensor, check Polar UUID](#step-2-turn-on-polar-sensor-check-polar-uuid)
-    - [Step 3: Create Polar sensor for a tablet on CMS](#step-3-create-polar-sensor-for-a-tablet-on-cms)
-    - [Step 3: Test connection giữa Polar sensor and Fulfit For Gym app](#step-3-test-connection-giữa-polar-sensor-and-fulfit-for-gym-app)
   - [Using Fulfit For Gym service for the first time](#using-fulfit-for-gym-service-for-the-first-time)
-    - [Step 1](#step-1)
-    - [Step 2](#step-2)
-    - [Step 3](#step-3)
-    - [Step 4](#step-4)
-    - [Step 5](#step-5)
+    - [Step 1: Prepare the environment and necessary equipment](#step-1-prepare-the-environment-and-necessary-equipment)
+    - [Step 2: Login gym owner account to tablet](#step-2-login-gym-owner-account-to-tablet)
+    - [Step 3: Turn on Polar sensor, check Polar UUID](#step-3-turn-on-polar-sensor-check-polar-uuid)
+    - [Step 4: Create Polar sensor for a tablet on CMS](#step-4-create-polar-sensor-for-a-tablet-on-cms)
+    - [Step 5: Test connection between Polar sensor and Fulfit For Gym app](#step-5-test-connection-between-polar-sensor-and-fulfit-for-gym-app)
 
 ## CMS introduction
 
@@ -81,16 +76,19 @@ Each tablet in the table has an action item, there will be buttons including the
 
 1. List Polar sensors table
 ![CMS device](./fulfitforgym/polar-list.png)
-2. Edit and detail of tablet
+This page will display the list of Polars you have added for the specified tablet object.
+1. Edit and detail of tablet
 ![CMS device](./fulfitforgym/device-edit.png)
-3. Delete tablet
+1. Delete tablet
 ![CMS device](./fulfitforgym/device-delete.png)
 
 ## CMS Polar sensors
 
 1. List Polar sensors table
 ![CMS device](./fulfitforgym/polar-list.png)
-1.1. If Polar sensors tablet had data
+This page will display the list of Polars you have added for the specified tablet object.
+
+    1.1. If Polar sensors tablet had data
 ![CMS device](./fulfitforgym/polar-list-had-data.png)
 
 2. Create a Polar sensor for a tablet
@@ -107,26 +105,98 @@ Each tablet in the table has an action item, there will be buttons including the
 Polar histories session of Polar sensor
 ![CMS device](./fulfitforgym/session-list.png)
 
-## How to add a Polar sensor to tablet
-
-### Step 1: Login gym owner account to tablet
-
-First you need login gym owner account to tablet for tablet to be initialized in the system.
-
-### Step 2: Turn on Polar sensor, check Polar UUID
-
-### Step 3: Create Polar sensor for a tablet on CMS
-
-### Step 3: Test connection giữa Polar sensor and Fulfit For Gym app
-
 ## Using Fulfit For Gym service for the first time
 
-### Step 1
+### Step 1: Prepare the environment and necessary equipment
 
-### Step 2
+- Prepare tablet and Polar sensors.
+- Download the Fulfit For Gym app to your tablet at: <https://play.google.com/store/apps/details?id=jp.fulfit.gym>
+- Admin account to manage the list of equipment and polars in the gym on the website: <https://cms.gym.fulfit.jp/>
 
-### Step 3
+**If you do not have an account, please contact us.**
 
-### Step 4
+### Step 2: Login gym owner account to tablet
 
-### Step 5
+First, you need to log in to the gym owner account on the Fulfit For Gym app on a tablet for the tablet to be initialized in the system.
+
+![How to login](./fulfitforgym/how-to-login.jpeg)
+
+![How to login 1](./fulfitforgym/how-to-login-1.jpeg)
+
+After successfully logging in to the Fulfit For Gym app on your tablet, a device will appear in the device list in the CMS.
+
+![How to init device](./fulfitforgym/how-to-init-device.png)
+
+You can change tablet information and set up unique names for tablets:
+
+- Tablet Nickname
+- Tablet UUID (generate from tablet)
+- Tablet type
+- Status
+
+![How to edit device](./fulfitforgym/how-to-edit-device.png)
+
+### Step 3: Turn on Polar sensor, check Polar UUID
+
+Second, you need to turn on the Polar and check the small UUID located on the Polar.
+
+For example UUID: C619xxxx
+
+![Polar sensor](./fulfitforgym/polar-sensor.webp)
+
+### Step 4: Create Polar sensor for a tablet on CMS
+
+On the screen add polar list of the tablet. You can add new Polar by clicking on the button in the picture
+
+![Add polar button](./fulfitforgym/how-to-create-polar.png)
+
+When you click on the button. A modal will open, fill in the polar information such as:
+
+- Polar Nickname
+- Polar UUID
+- Device Type -> select Polar
+- Status
+
+![Polar create](./fulfitforgym/how-to-create-polar-1.png)
+
+After creating a new Polar, the device's polar list will be updated.
+
+![Polar list](./fulfitforgym/how-to-list-polar.png)
+
+### Step 5: Test connection between Polar sensor and Fulfit For Gym app
+
+After successfully logging in and on the waiting screen in Fulfit For Gym app. Press the button and select continue with guest.
+
+![Guest](./fulfitforgym/how-to-with-guest.jpeg)
+
+Select gender of guest
+
+![Gender](./fulfitforgym/how-to-with-guest-gender.jpeg)
+
+Input age of guest
+
+![Age](./fulfitforgym/how-to-with-guest-age.jpeg)
+
+Input weight of guest
+
+![Weight](./fulfitforgym/how-to-with-guest-weight.jpeg)
+
+Input height of guest
+
+![Height](./fulfitforgym/how-to-with-guest-height.jpeg)
+
+Select Polar just add on CMS
+
+![Polar](./fulfitforgym/how-to-with-guest-select-polar.jpeg)
+
+> **Make sure you have enabled permission for:**
+
+- Location
+- Nearby device
+- Bluetooth
+
+![Permission](./fulfitforgym/how-to-permission.jpeg)
+
+Last step, take resting heart rate from polar device and start a workout
+
+![Workout](./fulfitforgym/how-to-workout.jpeg)
