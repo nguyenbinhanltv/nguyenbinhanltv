@@ -1,4 +1,4 @@
-# 🍥An Binh Nguyen
+# 🍥Alan Nguyen
 
 A static blog template built with [Astro](https://astro.build).
 
